@@ -25,7 +25,16 @@
 
 Each class and public method must contain Javadoc, with at least one phrase describing what it does.
 <br>For example:
-<br>1111
+<br>``` 
+public interface DbBaseModel {
+
+    /**
+     * Returns String with insert result
+     * @param rows insert string count
+     */
+    String insertingResult(int rows);
+
+}```
 
 <a name="short_methods"><h2>Short methods</h2></a>
 
