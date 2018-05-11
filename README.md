@@ -165,7 +165,7 @@ public class SampleClass {
 
 <a name="reductions"><h2>Reductions</h2></a>
 
-Abbreviations and abbreviations should be written as words.
+Abbreviations and acronyms should be written as words.
 <br>For example:
 ```java
 // YES  
@@ -179,6 +179,27 @@ public class GreenDAOService implements DBBaseModel, IEntityGenerator<Fruit> {
 ```
 
 <a name="TODO_and_FIXME"><h2>TODO and FIXME</h2></a>
+
+It is required to use TODO comments for code that is temporary, a short-term solution, or good-enough but not perfect. 
+<br>Use FIXME for code that must be subject to change.
+<br>For example:
+```java
+public class GreenDaoService implements DbBaseModel, IEntityGenerator<Fruit> {  
+      
+    @Override  
+    public String readingAllResult() {  
+        long start = System.currentTimeMillis();  
+        List<Fruit> fruits = App.getDaoReadingSession()  
+                .getFruitDao()  
+                .loadAll();  
+        long end = System.currentTimeMillis();  
+        // TODO use it, if you need show found fruits count  
+        /* FIXME: System.out.println("Найдено: " + fruits.size()); */ 
+        return ResultString.getResult(start, end);  
+    }  
+  
+} 
+```
 
 <a name="consistency"><h2>Consistency</h2></a>
 
