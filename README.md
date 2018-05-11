@@ -219,7 +219,6 @@ Drawable files:
 | Notification  | notification_      | notification_bg.9.png    |
 | Tab           | tab_               | tab_pressed.9.png        |
 <br>
-<br>
 Choose state:
 
 | State         | Suffix             | Example                  |
@@ -229,8 +228,18 @@ Choose state:
 | Focused       | _focused     | btn_order_focused.9.png  |
 | Disabled      | _disabled    | btn_order_disabled.9.png |
 | Selected      | _selected    | btn_order_selected.9.png |
+<br>
+
+Layout files:
+<br>The layout files must match the Android сomponents for which they were intended, but transfer the component name from the previous level to the begin. For example, if we create a layout for the name ```SignInActivity```, there must be a file name of the ```activity_sign_in.xml``` layout
+<br>Menu files:
+<br>Like the layout files, the menu files must match the name of the component. For example, if we define a menu file that will be used in the ```UserActivity``` file, then the file name must be ```activity_user.xml```. It's best practice not to include the word menu as part of the name, because these files are already in the menu directory.
+
 
 <a name="android_components_classes"><h2>Android components classes</h2></a>
+
+For classes that extend the Android component, the class name must end with the component name. 
+<br>For example: ```SignInActivity```, ```SignInFragment```, ```ImageUploaderService```, ```ChangePasswordDialog```.
 
 <a name="packages"><h2>Packages</h2></a>
 
