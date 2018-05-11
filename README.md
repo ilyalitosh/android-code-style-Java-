@@ -203,7 +203,15 @@ public class GreenDaoService implements DbBaseModel, IEntityGenerator<Fruit> {
 
 <a name="consistency"><h2>Consistency</h2></a>
 
+If you change the code, then look to look at the code around you and determine its style. If spaces are used in it, then you should use them. If the comments contain a small set of asterisks, then you should use them.
+
 <a name="resources_files"><h2>Resources files</h2></a>
+
+| Таблицы       | Это                | Круто |
+| ------------- |:------------------:| -----:|
+| столбец 3     | выровнен вправо    | $1600 |
+| столбец 2     | выровнен по центру |   $12 |
+| зебра-строки  | прикольные         |    $1 |
 
 <a name="android_components_classes"><h2>Android components classes</h2></a>
 
