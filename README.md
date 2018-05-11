@@ -1,10 +1,10 @@
 # Android code convention
 
 ### Content
-[1. Comments/javadoc](#comments_javadoc)<br>
-[2. Short methods](#short_methods)<br>
-[3. Methods name](#methods_name)<br>
-[4. Fields](#fields)<br>
+1. [Comments/javadoc](#comments_javadoc)<br>
+2. [Short methods](#short_methods)<br>
+3. [Methods name](#methods_name)<br>
+3. [Fields](#fields)<br>
 [5. Local variables](#local_variables)<br>
 [6. Imports](#imports)<br>
 [7. Indents](#indents)<br>
