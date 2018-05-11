@@ -61,6 +61,21 @@ public class RealmService implements IEntityGenerator<Car>{
 
 <a name="methods_name"><h2>Methods name</h2></a>
 
+The method names must be verbs written according to the CamelCase principle. Method names should not contain abbreviations, unless these abbreviations are abbreviations or acronyms.
+<br> For example:
+```java
+// YES 
+@Override  
+public String insertingResult(int rows) {  
+    return null;  
+}  
+// NO
+@Override  
+public String insertingRes(int rows) {  
+    return null;  
+} 
+```
+
 <a name="fields"><h2>Fields</h2></a>
 
 <a name="local_variables"><h2>Local variables</h2></a>
