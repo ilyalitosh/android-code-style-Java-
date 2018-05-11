@@ -102,6 +102,33 @@ public class HomeActivity extends MvpAppCompatActivity{
 
 <a name="local_variables"><h2>Local variables</h2></a>
 
+The scope of local variables must be kept to a minimum. Each variable must be declared in the deepest block that surrounds all possible places of use of the variable.
+<br>Local variables must be declared in the place, where it is first necessary to use it.
+<br>For example: 
+```java
+public class GreenDaoService implements DbBaseModel, IEntityGenerator<Fruit> {  
+      
+    @Override  
+    public Observable<String> reactiveReadingAllRes() {  
+        return Observable.fromCallable(() -> {  
+            long start = System.currentTimeMillis();  
+              
+            List<Fruit> fruits = App.getDaoReadingSession()  
+                            .getFruitDao()  
+                            .loadAll();  
+              
+            long end = System.currentTimeMillis();  
+            System.out.println("Найдено: " + fruits.size());  
+            return ResultString.getResult(start, end);  
+        })  
+                .subscribeOn(Schedulers.io())  
+                .observeOn(AndroidSchedulers.mainThread());  
+    }  
+  
+} 
+```
+
+
 <a name="imports"><h2>Imports</h2></a>
 
 <a name="Indents"><h2>Indents</h2></a>
