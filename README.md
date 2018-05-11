@@ -24,8 +24,8 @@
 <a name="comments_javadoc"><h2>Comments/javadoc</h2></a>
 
 Each class and public method must contain Javadoc, with at least one phrase describing what it does.
-For example:
-1111
+<br>For example:
+<br>1111
 
 <a name="short_methods"><h2>Short methods</h2></a>
 
