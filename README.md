@@ -108,13 +108,13 @@ The scope of local variables must be kept to a minimum. Each variable must be de
 <a name="imports"><h2>Imports</h2></a>
 
 The ordering of import statements is:
-		1. Android imports.
-		2. Imports from third parties (com, junit, net, org).
-		3. java and javax packages.
+⋅⋅1. Android imports.
+⋅⋅2. Imports from third parties (com, junit, net, org).
+⋅⋅3. java and javax packages.
 <br>Imports must be:
-		*Alphabetical within each grouping.
-		*Capital letters before lower case letters (e.g. Z before a).
-		*Separated by a blank line between each major grouping.
+		* Alphabetical within each grouping.
+		* Capital letters before lower case letters (e.g. Z before a).
+		* Separated by a blank line between each major grouping.
 <br>For example: 
 
 
