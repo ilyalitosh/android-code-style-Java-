@@ -1,23 +1,23 @@
 # Android code convention
 
 ##### Content
-[Comments/javadoc](#comments_javadoc)
-[Short methods](#short_methods)
-[Methods name](#methods_name)
-[Fields](#fields)
-[Local variables](#local_variables)
-[Imports](#imports)
-[Indents](#indents)
-[String length](#string_length)
-[Braces](#braces)
-[Reductions](#reductions)
-[TODO and FIXME](#TODO_and_FIXME)
-[Consistency](#consistency)
-[Resources files](#resources_files)
-[Android components classes](#android_components_classes)
-[Packages](#packages)
-[Project package](#project_package)
-[Package structure](#package_structure)
+[Comments/javadoc](#comments_javadoc)<br>
+[Short methods](#short_methods)<br>
+[Methods name](#methods_name)<br>
+[Fields](#fields)<br>
+[Local variables](#local_variables)<br>
+[Imports](#imports)<br>
+[Indents](#indents)<br>
+[String length](#string_length)<br>
+[Braces](#braces)<br>
+[Reductions](#reductions)<br>
+[TODO and FIXME](#TODO_and_FIXME)<br>
+[Consistency](#consistency)<br>
+[Resources files](#resources_files)<br>
+[Android components classes](#android_components_classes)<br>
+[Packages](#packages)<br>
+[Project package](#project_package)<br>
+[Package structure](#package_structure)<br>
 
 
 
