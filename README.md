@@ -43,7 +43,7 @@ public interface DbBaseModel {
 Methods should be small and decisives specific tasks, as far as possible.
 <br>For example:
 ```java
-public class RealmService IEntityGenerator<Car>{  
+public class RealmService implements IEntityGenerator<Car>{  
   
     @Override  
     public Car generateEntity(long id) {  
