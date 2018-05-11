@@ -329,7 +329,7 @@ A packages structure, that uses the MVVM pattern:
   - views
     - adapters
     - ui
-      …
+    - …
   - viewmodels
     - Class1ViewModel
     - Class2ViewModel
@@ -340,7 +340,7 @@ A packages structure, that uses the MVVM pattern:
   - views
     - adapters
     - ui
-      …
+    - …
   - viewmodels
     - Class1ViewModel1
     - Class2ViewModel2
