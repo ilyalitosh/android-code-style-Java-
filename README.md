@@ -206,7 +206,8 @@ public class GreenDaoService implements DbBaseModel, IEntityGenerator<Fruit> {
 If you change the code, then look to look at the code around you and determine its style. If spaces are used in it, then you should use them. If the comments contain a small set of asterisks, then you should use them.
 
 <a name="resources_files"><h2>Resources files</h2></a>
-
+Drawable files:
+<br>
 | Type          | Prefix             | Example                  |
 |:-------------:|:------------------:|:------------------------:|
 | Action bar    | ab_                | ab_stacked.9.png         |
@@ -217,6 +218,17 @@ If you change the code, then look to look at the code around you and determine i
 | Menu          | menu_              | menu_submenu_bg.9.png    |
 | Notification  | notification_      | notification_bg.9.png    |
 | Tab           | tab_               | tab_pressed.9.png        |
+<br>
+<br>
+Choose state:
+<br>
+| State         | Suffix             | Example                  |
+|:-------------:|:------------------:|:------------------------:|
+| Normal        | \_normal           | btn_order_normal.9.png   |
+| Pressed       | \_pressed          | btn_order_pressed.9.png  |
+| Focused       | \_focused          | btn_order_focused.9.png  |
+| Disabled      | \_disabled         | btn_order_disabled.9.png |
+| Selected      | \_selected         | btn_order_selected.9.png |
 
 <a name="android_components_classes"><h2>Android components classes</h2></a>
 
