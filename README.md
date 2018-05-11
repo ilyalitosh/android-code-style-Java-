@@ -108,15 +108,36 @@ The scope of local variables must be kept to a minimum. Each variable must be de
 <a name="imports"><h2>Imports</h2></a>
 
 The ordering of import statements is:
-<br>1. Android imports.
-<br>2. Imports from third parties (com, junit, net, org).
-<br>3. java and javax packages.
+<br>    1. Android imports.
+<br>    2. Imports from third parties (com, junit, net, org).
+<br>    3. java and javax packages.
 <br>Imports must be:
-		+ Alphabetical within each grouping.
-		+ Capital letters before lower case letters (e.g. Z before a).
-		+ Separated by a blank line between each major grouping.
+<br>    - Alphabetical within each grouping.
+<br>    - Capital letters before lower case letters (e.g. Z before a).
+<br>    - Separated by a blank line between each major grouping.
 <br>For example: 
-
+```java
+import android.os.Bundle;  
+import android.support.v7.widget.AppCompatSpinner;  
+import android.text.TextUtils;  
+import android.widget.ArrayAdapter;  
+import android.widget.Button;  
+import android.widget.EditText;  
+import android.widget.TextView;  
+import android.widget.Toast;  
+  
+import com.arellomobile.mvp.MvpAppCompatActivity;  
+import com.arellomobile.mvp.presenter.InjectPresenter;  
+import com.ilya.litosh.roomvsrealm.R;  
+import com.ilya.litosh.roomvsrealm.presenters.DBChooserPresenter;  
+import com.ilya.litosh.roomvsrealm.presenters.DBResultPresenter;  
+import com.ilya.litosh.roomvsrealm.presenters.TypeChooserPresenter;  
+import com.ilya.litosh.roomvsrealm.views.DBChooserView;  
+import com.ilya.litosh.roomvsrealm.views.DBResultView;  
+import com.ilya.litosh.roomvsrealm.views.TypeChooserView;  
+  
+import java.util.List; 
+```
 
 <a name="Indents"><h2>Indents</h2></a>
 
