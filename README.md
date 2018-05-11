@@ -21,8 +21,8 @@
 
 <a name="comments_javadoc"><h2>Comments/javadoc</h2></a>
 
-    Each class and public method must contain Javadoc, with at least one phrase describing what it does.
-<br>    For example:
+&#9;Each class and public method must contain Javadoc, with at least one phrase describing what it does.
+<br>&#9;For example:
 <br> 
 ```java
 public interface DbBaseModel {
@@ -38,8 +38,8 @@ public interface DbBaseModel {
 
 <a name="short_methods"><h2>Short methods</h2></a>
 
-    Methods should be small and decisives specific tasks, as far as possible.
-<br>    For example:
+&#9;Methods should be small and decisives specific tasks, as far as possible.
+<br>&#9;For example:
 ```java
 public class RealmService implements IEntityGenerator<Car>{  
   
@@ -59,8 +59,8 @@ public class RealmService implements IEntityGenerator<Car>{
 
 <a name="methods_name"><h2>Methods name</h2></a>
 
-    The method names must be verbs written according to the CamelCase principle. Method names should not contain abbreviations, unless these abbreviations are abbreviations or acronyms.
-<br>    For example:
+&#9;The method names must be verbs written according to the CamelCase principle. Method names should not contain abbreviations, unless these abbreviations are abbreviations or acronyms.
+<br>&#9;For example:
 ```java
 // YES 
 @Override  
@@ -76,12 +76,12 @@ public String insertingRes(int rows) {
 
 <a name="fields"><h2>Fields</h2></a>
 
-    The fields must be at the top of the file, or right before the method that uses them. 
-<br>    Private non-static fields must begin with the letter ```m```. 
-<br>    Private and static fields must begin with the letter ```s```.
-<br>    All names of fields, classes, methods should be written according to the principle of CamelCase.
-<br>    Constant field is writing with uppercase and with ```_```.
-    For example:
+&#9;The fields must be at the top of the file, or right before the method that uses them. 
+<br>&#9;Private non-static fields must begin with the letter ```m```. 
+<br>&#9;Private and static fields must begin with the letter ```s```.
+<br>&#9;All names of fields, classes, methods should be written according to the principle of CamelCase.
+<br>&#9;Constant field is writing with uppercase and with ```_```.
+&#9;For example:
 ```java
 public class HomeActivity extends MvpAppCompatActivity{  
   
@@ -100,14 +100,14 @@ public class HomeActivity extends MvpAppCompatActivity{
 
 <a name="local_variables"><h2>Local variables</h2></a>
 
-    The scope of local variables must be kept to a minimum. Each variable must be declared in the deepest block that surrounds all possible places of use of the variable.
-<br>Local variables must be declared in the place, where it is first necessary to use it.
-<br>For example: 
+&#9;The scope of local variables must be kept to a minimum. Each variable must be declared in the deepest block that surrounds all possible places of use of the variable.
+<br>&#9;Local variables must be declared in the place, where it is first necessary to use it.
+<br>&#9;For example: 
 ![1](resources/local_variables_screen.png)<br>
 
 <a name="imports"><h2>Imports</h2></a>
 
-The ordering of import statements is:
+&#9;The ordering of import statements is:
 <br>    1. Android imports.
 <br>    2. Imports from third parties (com, junit, net, org).
 <br>    3. java and javax packages.
