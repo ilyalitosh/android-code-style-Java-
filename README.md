@@ -243,6 +243,9 @@ For classes that extend the Android component, the class name must end with the 
 
 <a name="packages"><h2>Packages</h2></a>
 
+The package name must contain the reversed domain of your organization. For example, the name of the ```com.google.docs``` package indicates that the developer of ```google.com``` created the docs package. Also the name of the package should be written in all capital letters. In the case when there is a dash in the domain name or a collision with the name of a primitive type is expected, it is necessary to add a lower underscore. 
+<br>For example: with the domain name ```int.dev-google.com``` and the ```docs``` package, the package name will look like: ```com.dev_google._int.docs```.
+
 <a name="project_package"><h2>Project package</h2></a>
 
 <a name="package_structure"><h2>Package structure</h2></a>
