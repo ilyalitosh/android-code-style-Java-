@@ -221,7 +221,7 @@ Drawable files:
 <br>
 <br>
 Choose state:
-<br>
+
 | State         | Suffix             | Example                  |
 |:-------------:|:------------------:|:------------------------:|
 | Normal        | ```_normal```      | btn_order_normal.9.png   |
