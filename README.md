@@ -111,7 +111,7 @@ public class GreenDaoService implements DbBaseModel, IEntityGenerator<Fruit> {
     @Override  
     public Observable<String> reactiveReadingAllRes() {  
         return Observable.fromCallable(() -> {  
-            long start = System.currentTimeMillis();  
+            <font color="red">long start</font> = System.currentTimeMillis();  
               
             List<Fruit> fruits = App.getDaoReadingSession()  
                             .getFruitDao()  
