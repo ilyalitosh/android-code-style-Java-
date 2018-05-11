@@ -153,6 +153,16 @@ Each text string in code must be no longer 100 symbols.
 
 <a name="braces"><h2>Braces</h2></a>
 
+Braces do not go on their own line, they go on the same line as the code before them.
+<br>For example:
+```java
+public class SampleClass {  
+    public void do(){  
+    }
+} 
+
+```
+
 <a name="reductions"><h2>Reductions</h2></a>
 
 <a name="TODO_and_FIXME"><h2>TODO and FIXME</h2></a>
