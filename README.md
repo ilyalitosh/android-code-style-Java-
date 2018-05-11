@@ -78,6 +78,28 @@ public String insertingRes(int rows) {
 
 <a name="fields"><h2>Fields</h2></a>
 
+The fields must be at the top of the file, or right before the method that uses them. 
+<br>Private non-static fields must begin with the letter "m". 
+<br>Private and static fields must begin with the letter "s".
+<br>All names of fields, classes, methods should be written according to the principle of CamelCase.
+<br>Constant field is writing with uppercase and with "_".
+For example:
+```java
+public class HomeActivity extends MvpAppCompatActivity{  
+  
+    private AppCompatSpinner mSpinnerDB;  
+    private AppCompatSpinner mSpinnerType;  
+    private TextView mDbResultView;  
+    private Button mSubmitButton;  
+    private EditText mInputRows;  
+    private EditText mInputId;  
+    public static final int CONSTANT_NUMBER = 5;  
+    DBResultPresenter mDbResultPresenter;  
+    private static Singlton sSinglton;  
+  
+} 
+```
+
 <a name="local_variables"><h2>Local variables</h2></a>
 
 <a name="imports"><h2>Imports</h2></a>
