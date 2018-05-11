@@ -79,10 +79,10 @@ public String insertingRes(int rows) {
 <a name="fields"><h2>Fields</h2></a>
 
 The fields must be at the top of the file, or right before the method that uses them. 
-<br>Private non-static fields must begin with the letter "m". 
-<br>Private and static fields must begin with the letter "s".
+<br>Private non-static fields must begin with the letter ```m```. 
+<br>Private and static fields must begin with the letter ```s```.
 <br>All names of fields, classes, methods should be written according to the principle of CamelCase.
-<br>Constant field is writing with uppercase and with "_".
+<br>Constant field is writing with uppercase and with ```_```.
 For example:
 ```java
 public class HomeActivity extends MvpAppCompatActivity{  
