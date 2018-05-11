@@ -243,10 +243,36 @@ For classes that extend the Android component, the class name must end with the 
 
 <a name="packages"><h2>Packages</h2></a>
 
-The package name must contain the reversed domain of your organization. For example, the name of the ```com.google.docs``` package indicates that the developer of ```google.com``` created the docs package. Also the name of the package should be written in all capital letters. In the case when there is a dash in the domain name or a collision with the name of a primitive type is expected, it is necessary to add a lower underscore. 
+The package name must contain the reversed domain of your organization. For example, the name of the ```com.google.docs``` package indicates that the developer of ```google.com``` created the ```docs``` package. Also the name of the package should be written in all capital letters. In the case when there is a dash in the domain name or a collision with the name of a primitive type is expected, it is necessary to add a lower underscore. 
 <br>For example: with the domain name ```int.dev-google.com``` and the ```docs``` package, the package name will look like: ```com.dev_google._int.docs```.
 
 <a name="project_package"><h2>Project package</h2></a>
+
+In the directory of your application should be the following structure:
+- app
+- manifests
+- java
+- res
+	<br>Open the manifests:
+-app
+-manifests
+-AndroidManifest.xml
+	The manifests folder contains AndroidManifest.xml, which is a required app file. It, for example, contains information about the activities used in the app or information about the intent-filters, through which other apps can call yours app.
+java folder contains:
+app
+java
+[reversed domain name].[project name]
+[reversed domain name].[project name](androidTest)
+[reversed domain name].[project name](test)
+packages with the source code of the project as well as packages with tests.
+	The res folder contains project resources:
+app
+res
+drawable
+layout
+mipmap
+values
+This is the list of the main packages in the res folder, as well as various packages of the type anim, menu and others can be added if possible. The drawable package contains raster and vector resources, as well as various xml-figures. The layout package contains markup files. The mipmap contains application icons for various screen resolutions. The values package stores various values for styles, colors, lines, etc.
 
 <a name="package_structure"><h2>Package structure</h2></a>
 
