@@ -281,7 +281,7 @@ In the directory of your application should be the following structure:
 <a name="package_structure"><h2>Package structure</h2></a>
 
 #### MVC pattern
-<br>Packages, that use the MVC pattern will structure like:
+Packages, that use the MVC pattern will structure like:
 - package1
   - Class1Model
   - Class1Controller
@@ -294,7 +294,7 @@ In the directory of your application should be the following structure:
 <br>The classes in the package must depend on each other.
 
 #### MVP pattern
-<br>Packages, that use the MVP pattern will structure like::
+Packages, that use the MVP pattern will structure like::
 - package_name1
   - models
     - Class1Model
@@ -321,7 +321,7 @@ In the directory of your application should be the following structure:
     - Class2Presenter2
 
 #### MVVM pattern 
-<br>A packages structure, that uses the MVVM pattern:
+A packages structure, that uses the MVVM pattern:
 - package_name1
   - models
     - Class1Model
