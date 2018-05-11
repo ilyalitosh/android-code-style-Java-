@@ -276,10 +276,74 @@ In the directory of your application should be the following structure:
     - mipmap
     - values
 
-<br>This is the list of the main packages in the res folder, as well as various packages of the type anim, menu and others can be added if possible. The drawable package contains raster and vector resources, as well as various xml-figures. The layout package contains markup files. The mipmap contains application icons for various screen resolutions. The values package stores various values for styles, colors, lines, etc.
+<br>This is the list of the main packages in the res folder, as well as various packages of the type ```anim```, ```menu``` and others can be added if possible. The ```drawable``` package contains raster and vector resources, as well as various xml-figures. The ```layout``` package contains markup files. The ```mipmap``` contains application icons for various screen resolutions. The ```values``` package stores various values for ```styles```, ```colors```, ```lines```, etc.
 
 <a name="package_structure"><h2>Package structure</h2></a>
 
+#### MVC pattern
+<br>Packages, that use the MVC pattern will structure like:
+- package1
+  - Class1Model
+  - Class1Controller
+  - Class1View
+- package2
+  - Class2Model
+  - Class2Controller
+  - Class2View
+
+<br>The classes in the package must depend on each other.
+
+#### MVP pattern
+<br>Packages, that use the MVP pattern will structure like::
+- package_name1
+  - models
+    - Class1Model
+    - Class2Model
+  - views
+    - IView1
+    - Class1View
+    - IView2
+    - Class2View
+  - presenters
+    - Class1Presenter
+    - Class2Presenter
+- package_name2
+  - models
+    - Class1Model1
+    - Class2Model2
+  - views
+    - IView11
+    - Class1View1
+    - IView22
+    - Class2View2
+  - presenters
+    - Class1Presenter1
+    - Class2Presenter2
+
+#### MVVM pattern 
+<br>A packages structure, that uses the MVVM pattern:
+- package_name1
+  - models
+    - Class1Model
+    - Class2Model
+  - views
+    - adapters
+    - ui
+      …
+  - viewmodels
+    - Class1ViewModel
+    - Class2ViewModel
+- package_name2
+  - models
+    - Class1Model1
+    - Class2Model2
+  - views
+    - adapters
+    - ui
+      …
+  - viewmodels
+    - Class1ViewModel1
+    - Class2ViewModel2
 
 
 
