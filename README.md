@@ -253,11 +253,11 @@ In the directory of your application should be the following structure:
   - manifests
   - java
   - res
-Open the manifests:<br>
+<br>Open the manifests:<br>
 - app
   - manifests
     - AndroidManifest.xml
-The manifests folder contains AndroidManifest.xml, which is a required app file. It, for example, contains information about the activities used in the app or information about the intent-filters, through which other apps can call yours app.
+<br>The manifests folder contains AndroidManifest.xml, which is a required app file. It, for example, contains information about the activities used in the app or information about the intent-filters, through which other apps can call yours app.
 java folder contains:
 app
 java
