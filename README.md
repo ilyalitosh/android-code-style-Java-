@@ -254,27 +254,29 @@ In the directory of your application should be the following structure:
   - java
   - res
   
-<br>Open the manifests:<br>
+<br>Open the ```manifests```:<br>
 - app
   - manifests
     - AndroidManifest.xml
     
-<br>The manifests folder contains AndroidManifest.xml, which is a required app file. It, for example, contains information about the activities used in the app or information about the intent-filters, through which other apps can call yours app.
-java folder contains:
-app
-java
-[reversed domain name].[project name]
-[reversed domain name].[project name](androidTest)
-[reversed domain name].[project name](test)
-packages with the source code of the project as well as packages with tests.
-	The res folder contains project resources:
-app
-res
-drawable
-layout
-mipmap
-values
-This is the list of the main packages in the res folder, as well as various packages of the type anim, menu and others can be added if possible. The drawable package contains raster and vector resources, as well as various xml-figures. The layout package contains markup files. The mipmap contains application icons for various screen resolutions. The values package stores various values for styles, colors, lines, etc.
+<br>The ```manifests``` folder contains ```AndroidManifest.xml```, which is a required app file. It, for example, contains information about the activities used in the app or information about the intent-filters, through which other apps can call yours app.
+<br>```java``` folder contains:
+- app
+  - java
+    - [reversed domain name].[project name]
+    - [reversed domain name].[project name](androidTest)
+    - [reversed domain name].[project name](test)
+
+<br>packages with the source code of the project as well as packages with tests.
+<br>The res folder contains project resources:
+- app
+  - res
+    - drawable
+    - layout
+    - mipmap
+    - values
+
+<br>This is the list of the main packages in the res folder, as well as various packages of the type anim, menu and others can be added if possible. The drawable package contains raster and vector resources, as well as various xml-figures. The layout package contains markup files. The mipmap contains application icons for various screen resolutions. The values package stores various values for styles, colors, lines, etc.
 
 <a name="package_structure"><h2>Package structure</h2></a>
 
