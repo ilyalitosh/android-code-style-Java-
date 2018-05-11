@@ -1,23 +1,23 @@
 # Android code convention
 
 ### Content
-[Comments/javadoc](#comments_javadoc)<br>
-[Short methods](#short_methods)<br>
-[Methods name](#methods_name)<br>
-[Fields](#fields)<br>
-[Local variables](#local_variables)<br>
-[Imports](#imports)<br>
-[Indents](#indents)<br>
-[String length](#string_length)<br>
-[Braces](#braces)<br>
-[Reductions](#reductions)<br>
-[TODO and FIXME](#TODO_and_FIXME)<br>
-[Consistency](#consistency)<br>
-[Resources files](#resources_files)<br>
-[Android components classes](#android_components_classes)<br>
-[Packages](#packages)<br>
-[Project package](#project_package)<br>
-[Package structure](#package_structure)<br>
+[1. Comments/javadoc](#comments_javadoc)<br>
+[2. Short methods](#short_methods)<br>
+[3. Methods name](#methods_name)<br>
+[4. Fields](#fields)<br>
+[5. Local variables](#local_variables)<br>
+[6. Imports](#imports)<br>
+[7. Indents](#indents)<br>
+[8. String length](#string_length)<br>
+[9. Braces](#braces)<br>
+[10. Reductions](#reductions)<br>
+[11. TODO and FIXME](#TODO_and_FIXME)<br>
+[12. Consistency](#consistency)<br>
+[13. Resources files](#resources_files)<br>
+[14. Android components classes](#android_components_classes)<br>
+[15. Packages](#packages)<br>
+[16. Project package](#project_package)<br>
+[17. Package structure](#package_structure)<br>
 
 
 
