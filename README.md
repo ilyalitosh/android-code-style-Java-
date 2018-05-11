@@ -103,8 +103,7 @@ public class HomeActivity extends MvpAppCompatActivity{
 The scope of local variables must be kept to a minimum. Each variable must be declared in the deepest block that surrounds all possible places of use of the variable.
 <br>Local variables must be declared in the place, where it is first necessary to use it.
 <br>For example: 
-![1](resources/local_variables_screen.png)
-
+![1](resources/local_variables_screen.png)<br>
 
 <a name="imports"><h2>Imports</h2></a>
 
