@@ -143,25 +143,7 @@ import java.util.List;
 
 It is required to use 4 spaces for blocks. And also 8 spaces for the wrap of lines, including calls to functions and assignments.
 <br>For example: 
-```java
-public class SnappyDBService implements DBBaseModel, IEntityGenerator<Book> {  
-    @Override  
-    public String insertingResult(int rows) {  
-        long start = System.currentTimeMillis();  
-        for(int i = 0; i < rows; i++){  
-            try {  
-                App.getSnappyDBSession()  
-                        .put("android:" + String.valueOf(i), generateEntity(0));  
-            } catch (SnappydbException e) {  
-                e.printStackTrace();  
-            }  
-        }  
-  
-        return ResultString  
-                .getResult(start, System.currentTimeMillis());  
-    }  
-}  
-```
+![2](resources/indents_screen.png)
 
 <a name="string_length"><h2>String length</h2></a>
 
