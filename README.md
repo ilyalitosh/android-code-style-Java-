@@ -249,10 +249,10 @@ The package name must contain the reversed domain of your organization. For exam
 <a name="project_package"><h2>Project package</h2></a>
 
 In the directory of your application should be the following structure:
-<br>- app
-<br>   - manifests
-<br>   - java
-<br>   - res
+- app
+  - manifests
+  - java
+  - res
 	<br>Open the manifests:
 -app
 -manifests
