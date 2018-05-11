@@ -35,7 +35,8 @@ public interface DbBaseModel {
      */
     String insertingResult(int rows);
 
-}```
+}
+```
 
 <a name="short_methods"><h2>Short methods</h2></a>
 
