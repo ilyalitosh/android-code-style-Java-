@@ -263,9 +263,9 @@ In the directory of your application should be the following structure:
 <br>```java``` folder contains:
 - app
   - java
-    - [reversed domain name].[project name]
-    - [reversed domain name].[project name](androidTest)
-    - [reversed domain name].[project name](test)
+    - ```[reversed domain name].[project name]```
+    - ```[reversed domain name].[project name](androidTest)```
+    - ```[reversed domain name].[project name](test)```
 
 <br>packages with the source code of the project as well as packages with tests.
 <br>The res folder contains project resources:
