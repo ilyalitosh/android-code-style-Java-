@@ -19,8 +19,6 @@
 16. [Project package](#project_package)<br>
 17. [Package structure](#package_structure)<br>
 
-
-
 <a name="comments_javadoc"><h2>Comments/javadoc</h2></a>
 
 Each class and public method must contain Javadoc, with at least one phrase describing what it does.
@@ -111,7 +109,7 @@ public class GreenDaoService implements DbBaseModel, IEntityGenerator<Fruit> {
     @Override  
     public Observable<String> reactiveReadingAllRes() {  
         return Observable.fromCallable(() -> {  
-            <font color="red">long start</font> = System.currentTimeMillis();  
+            ``` <font color="red">long start</font>``` = System.currentTimeMillis();  
               
             List<Fruit> fruits = App.getDaoReadingSession()  
                             .getFruitDao()  
