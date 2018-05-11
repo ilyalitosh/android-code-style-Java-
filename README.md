@@ -207,9 +207,9 @@ If you change the code, then look to look at the code around you and determine i
 
 <a name="resources_files"><h2>Resources files</h2></a>
 
-| Таблицы       | Это                | Круто |
-| ------------- |:------------------:| -----:|
-| столбец 3     | выровнен вправо    | $1600 |
+| Type          | Prefix             | Example            |
+| ------------- |:------------------:| ------------------:|
+| Action bar    |   ab_              |  ab_stacked.9.png  |
 | столбец 2     | выровнен по центру |   $12 |
 | зебра-строки  | прикольные         |    $1 |
 
