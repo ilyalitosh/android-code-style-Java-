@@ -147,6 +147,10 @@ It is required to use 4 spaces for blocks. And also 8 spaces for the wrap of lin
 
 <a name="string_length"><h2>String length</h2></a>
 
+Each text string in code must be no longer 100 symbols.
+<br>For example: 
+![3](resources/string_length_screen.png)
+
 <a name="braces"><h2>Braces</h2></a>
 
 <a name="reductions"><h2>Reductions</h2></a>
