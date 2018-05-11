@@ -224,11 +224,11 @@ Choose state:
 <br>
 | State         | Suffix             | Example                  |
 |:-------------:|:------------------:|:------------------------:|
-| Normal        | \_normal           | btn_order_normal.9.png   |
-| Pressed       | \_pressed          | btn_order_pressed.9.png  |
-| Focused       | \_focused          | btn_order_focused.9.png  |
-| Disabled      | \_disabled         | btn_order_disabled.9.png |
-| Selected      | \_selected         | btn_order_selected.9.png |
+| Normal        | _normal           | btn_order_normal.9.png   |
+| Pressed       | _pressed          | btn_order_pressed.9.png  |
+| Focused       | _focused          | btn_order_focused.9.png  |
+| Disabled      | _disabled         | btn_order_disabled.9.png |
+| Selected      | _selected         | btn_order_selected.9.png |
 
 <a name="android_components_classes"><h2>Android components classes</h2></a>
 
