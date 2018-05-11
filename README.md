@@ -165,6 +165,19 @@ public class SampleClass {
 
 <a name="reductions"><h2>Reductions</h2></a>
 
+Abbreviations and abbreviations should be written as words.
+<br>For example:
+```java
+// YES  
+public class GreenDaoService implements DbBaseModel, IEntityGenerator<Fruit> {  
+  
+}  
+// NO
+public class GreenDAOService implements DBBaseModel, IEntityGenerator<Fruit> {  
+  
+}  
+```
+
 <a name="TODO_and_FIXME"><h2>TODO and FIXME</h2></a>
 
 <a name="consistency"><h2>Consistency</h2></a>
