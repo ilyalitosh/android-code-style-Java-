@@ -26,7 +26,7 @@
 Each class and public method must contain Javadoc, with at least one phrase describing what it does.
 <br>For example:
 <br> 
-```no-highlight
+```java
 public interface DbBaseModel {
 
     /**
