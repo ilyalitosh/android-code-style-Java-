@@ -40,6 +40,25 @@ public interface DbBaseModel {
 
 <a name="short_methods"><h2>Short methods</h2></a>
 
+Methods should be small and decisives specific tasks, as far as possible.
+<br>For example:
+```java
+public class RealmService IEntityGenerator<Car>{  
+  
+    @Override  
+    public Car generateEntity(long id) {  
+        Car car = new Car();  
+        car.setColor("Black");  
+        car.setFuelCapacity(113);  
+        car.setPrice(666);  
+        car.setId(id);  
+  
+        return car;  
+    }  
+  
+} 
+```
+
 <a name="methods_name"><h2>Methods name</h2></a>
 
 <a name="fields"><h2>Fields</h2></a>
