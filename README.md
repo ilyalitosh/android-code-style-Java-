@@ -1,6 +1,6 @@
 # Android code convention
 
-##### Content
+### Content
 [Comments/javadoc](#comments_javadoc)<br>
 [Short methods](#short_methods)<br>
 [Methods name](#methods_name)<br>
