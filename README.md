@@ -1,4 +1,4 @@
-# Android code convention
+# Android code style(Java)
 
 ### Content
 1. [Comments/javadoc](#comments_javadoc)<br>
